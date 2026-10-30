@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Outfit Variable";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Manrope Variable";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2")
+    format("woff2");
+}
+html {
+  background: #0d1321;
+  color: #f0ebd8;
+}
+body {
+  margin: 0;
+}
+.route-loading {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  font-family: "Outfit Variable", sans-serif;
+  font-size: 24px;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "route": "/",
+    "scripts": [
+      "/assets/index-DU0NFn4a.js",
+      "/assets/App-dHwjjoJN.js",
+      "/assets/NavigationArrow.es-Dp_OOAeV.js"
+    ],
+    "fonts": [
+      "/assets/outfit-latin-wght-normal-Bc-8i84L.woff2",
+      "/assets/manrope-latin-wght-normal-DHIcAJRg.woff2"
+    ],
+    "threeLoaded": false
+  },
+  {
+    "route": "/entrar",
+    "scripts": [
+      "/assets/index-DU0NFn4a.js",
+      "/assets/AuthPage-uMm-4JfE.js",
+      "/assets/NavigationArrow.es-Dp_OOAeV.js"
+    ],
+    "fonts": [
+      "/assets/outfit-latin-wght-normal-Bc-8i84L.woff2",
+      "/assets/manrope-latin-wght-normal-DHIcAJRg.woff2"
+    ],
+    "threeLoaded": false
+  },
+  {
+    "route": "/cadastro",
+    "scripts": [
+      "/assets/index-DU0NFn4a.js",
+      "/assets/AuthPage-uMm-4JfE.js",
+      "/assets/NavigationArrow.es-Dp_OOAeV.js"
+    ],
+    "fonts": [
+      "/assets/outfit-latin-wght-normal-Bc-8i84L.woff2",
+      "/assets/manrope-latin-wght-normal-DHIcAJRg.woff2"
+    ],
+    "threeLoaded": false
+  }
+]

@@ -1,0 +1,11 @@
+.capture-art{margin:18px 0;border-radius:18px;overflow:hidden;background:#16243a;border:1px solid #748cab55;box-shadow:0 18px 40px #070c16aa}
+.capture-art svg{display:block;width:100%;height:auto}
+.capture-steps{display:flex;gap:10px;margin-top:14px;font:500 11px/1 Manrope;color:#a4b3c6}
+.capture-steps span{padding:8px 10px;border-radius:999px;background:#1d2d44;border:1px solid #748cab55;color:#f0ebd8}
+.portrait{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+.ua-ride-person .portrait,.ua-detail-person .portrait,.ua-chat-head .portrait{width:44px;height:44px}
+.ua-header-actions .portrait{width:36px;height:36px}
+.ua-profile-card .portrait{width:64px;height:64px}
+body[data-capture='details'] .ua-dialog{padding-bottom:32px!important}
+body[data-capture='publish'] .ua-dialog{padding-bottom:32px!important}
+body[data-capture='trips'] .ua-trip{display:flex;flex-direction:column;gap:12px}

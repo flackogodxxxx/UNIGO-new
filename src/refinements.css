@@ -1,0 +1,214 @@
+/* Optical spacing and readable UI labels without changing the approved palette. */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3 {
+  font-synthesis: none;
+}
+.login-link {
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 10px;
+  color: var(--eggshell);
+}
+.login-link:hover {
+  text-decoration: underline;
+}
+.hero-copy > div > p {
+  max-width: 47ch;
+  line-height: 1.8;
+}
+.hero-signals {
+  row-gap: 12px;
+  margin-top: 28px;
+}
+.hero-signals > span {
+  font-size: 11px;
+}
+.hero-campus-wrap {
+  padding-top: 16px;
+}
+.intro-aside p {
+  line-height: 1.85;
+}
+.story-turn {
+  margin-top: clamp(28px, 4vw, 56px);
+}
+.journey-heading p {
+  max-width: 42ch;
+  line-height: 1.8;
+}
+.chapter-copy {
+  font-size: 14px;
+  line-height: 1.75;
+}
+.chapter {
+  min-height: 120px;
+}
+.device-content {
+  min-height: 530px;
+}
+.device-subtitle {
+  font-size: 13px;
+}
+.demo-search label > span,
+.result-heading,
+.ride-person > div > span,
+.ride-tags > span,
+.meeting-ticket span {
+  font-size: 11px;
+}
+.demo-search select {
+  font-size: 14px;
+  min-height: 30px;
+}
+.ride-person strong,
+.ride-route > div,
+.verification-strip strong,
+.shared-people strong,
+.shared-stamp,
+.meeting-ticket strong {
+  font-size: 13px;
+}
+.chat-bubble {
+  font-size: 13px;
+  line-height: 1.75;
+}
+.example-note {
+  font-size: 11px !important;
+}
+.verification-strip span,
+.shared-stamp small,
+.device-bottom,
+.ride-price small {
+  font-size: 10px;
+}
+.demo-primary {
+  min-height: 46px;
+  font-size: 13px;
+}
+.device-bottom button {
+  width: 40px;
+  height: 40px;
+}
+.trust-explainer li p {
+  font-size: 13px;
+  line-height: 1.75;
+}
+.trust-explainer strong {
+  font-size: 14px;
+}
+.pass-person > div > span,
+.pass-fields,
+.pass-footer {
+  font-size: 12px;
+}
+.pass-footer > span {
+  font-size: 10px;
+}
+.trust-explainer li {
+  gap: 14px;
+}
+.seat-narrative p {
+  line-height: 1.8;
+}
+.hero-bottom {
+  line-height: 1.6;
+}
+.accordion p {
+  line-height: 1.85;
+}
+@media (max-width: 800px) {
+  .chapter {
+    min-height: 100px;
+  }
+  .chapter strong {
+    line-height: 1.3;
+  }
+  .device-content {
+    min-height: 560px;
+  }
+  .product-walkthrough {
+    margin-top: 32px;
+  }
+  .trust-details {
+    margin-top: 38px;
+  }
+  .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .campus-invite {
+    margin-top: 2px;
+  }
+  .hero-copy > div > p {
+    font-size: 15px;
+  }
+  .identity-pass {
+    transform: rotate(-2deg);
+  }
+}
+@media (max-width: 600px) {
+  .nav-cta {
+    display: none;
+  }
+  .login-link {
+    padding: 0 12px;
+  }
+  .hero-signals > span {
+    font-size: 10px;
+  }
+  .device-content {
+    padding: 22px 16px;
+  }
+  .demo-search {
+    gap: 8px;
+  }
+  .demo-search select {
+    font-size: 16px;
+  }
+  .demo-search label {
+    padding: 10px 8px;
+  }
+  .ride-person strong {
+    font-size: 12px;
+  }
+  .ride-person > div > span {
+    font-size: 10px;
+  }
+  .ride-route > div {
+    font-size: 12px;
+  }
+  .chapter strong {
+    font-size: 14px;
+  }
+  .chapter-copy {
+    display: none;
+  }
+  .ride-tags {
+    gap: 10px;
+  }
+  .trust-explainer {
+    padding: 0;
+  }
+  .pass-footer {
+    font-size: 11px;
+  }
+  .device-bottom > span {
+    font-size: 9px;
+  }
+  .hero-copy {
+    padding-bottom: 24px;
+  }
+  .hero-campus-wrap {
+    padding-top: 0;
+  }
+}

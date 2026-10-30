@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01-encontrar-carona",
+    "title": "Encontre quem já vai pelo seu caminho.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "discover"
+  },
+  {
+    "id": "02-conhecer-motorista",
+    "title": "Conheça a pessoa antes de combinar.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "details"
+  },
+  {
+    "id": "03-minhas-caronas",
+    "title": "Do pedido ao encontro, tudo no mesmo lugar.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "trips"
+  },
+  {
+    "id": "04-conversa",
+    "title": "Menos desencontro. Mais conversa.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "chat"
+  },
+  {
+    "id": "05-oferecer-carona",
+    "title": "Já vai para o campus? Leve alguém.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "publish"
+  },
+  {
+    "id": "06-perfil-confianca",
+    "title": "A confiança cresce no caminho.",
+    "width": 1290,
+    "height": 2796,
+    "mode": "profile"
+  }
+]

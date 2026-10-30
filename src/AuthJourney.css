@@ -1,0 +1,85 @@
+.auth-journey {
+  margin: 28px 0 32px;
+  padding: 18px 14px 20px;
+  background: #0d132126;
+  border: 1px solid #748cab30;
+  border-radius: 18px;
+}
+.auth-journey > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.journey-node rect {
+  fill: #1d2d44;
+  stroke: #748cab80;
+  stroke-width: 1;
+}
+.journey-node > svg {
+  color: #f0ebd8;
+}
+.journey-node text {
+  text-anchor: middle;
+  fill: #bec8d4;
+  font-family: "Manrope Variable", sans-serif;
+  font-size: 12px;
+}
+.journey-node--meeting rect {
+  fill: #3e5c76;
+  stroke: #f0ebd880;
+}
+.auth-journey figcaption {
+  text-align: center;
+  display: grid;
+  gap: 6px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: #a4b3c6;
+  margin-top: 8px;
+}
+.auth-journey figcaption strong {
+  font-weight: 450;
+  color: #f0ebd8;
+}
+.auth-story-content {
+  margin: 38px 0;
+}
+.auth-tabs a,
+.password-toggle {
+  transition:
+    background 180ms cubic-bezier(0.2, 0, 0, 1),
+    color 180ms cubic-bezier(0.2, 0, 0, 1);
+}
+.auth-tabs a:hover {
+  background: #748cab15;
+}
+.auth-input-wrap > .auth-field-icon {
+  position: absolute;
+  left: 13px;
+  top: 15px;
+  color: #a4b3c6;
+  pointer-events: none;
+}
+.auth-input-wrap input {
+  padding-left: 41px;
+}
+.auth-tabs a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.auth-form-shell {
+  animation: auth-content-enter 420ms cubic-bezier(0.2, 0, 0, 1) both;
+}
+@keyframes auth-content-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
